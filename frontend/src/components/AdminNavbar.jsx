@@ -16,7 +16,7 @@ const AdminNavbar = () => {
         });
         localStorage.removeItem("isAdmin"); 
         toast.success("Logged out successfully");
-        navigate('/admin')
+        navigate('/')
       } catch (error) {
         toast.error("An error occurred. Please try again.");
       }
